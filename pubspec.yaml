@@ -1,0 +1,26 @@
+name: river_cleaning_boat
+description: "A new Flutter project."
+publish_to: "none" # Prevent publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Bluetooth package for HC-05 / Arduino
+  flutter_bluetooth_classic_serial: ^1.3.2
+
+  # iOS-style icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
